@@ -1,0 +1,90 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: darkslateblue;
+}
+
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+/* a:active{
+    text-decoration: none;
+    
+} */
+a:hover{
+    color:crimson;
+    text-decoration: none;
+    text-decoration: underline;
+    /* text-shadow: -1px 0 crimson, 0 1px crimson, 1px 0 crimson, 0 -1px crimson; */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+header{
+    border-style: solid;
+    border-color: green;
+}
+nav{
+    border-style: solid;
+    border-color: orange;
+    }
+#logo{
+    height:50px;
+}    
+#nav-links{
+    border-style: solid;
+    border-color: red;
+    text-decoration: none;
+    color: crimson;
+    
+    }
+
+
+aside{
+    border-style: solid;
+    border-color: blue;
+}
+main{
+    border: solid;
+    border-color: purple;
+}
+article{
+    border: solid;
+    border-color:maroon;
+}
+section{
+    border: solid;
+    border-color:seagreen;
+}
+#gallery-images, #gameplay-videos{
+    border: solid;
+    border-color: crimson;
+}
+.gallery-item{
+    border: solid;
+    border-color: plum;
+}
+.gallery-image{
+    width: 500px;
+
+}
+
+
+
+.gameplay-item{
+    border: solid;
+    border-color: aqua;
+}
+footer{
+    border: solid;
+    border-color: violet;
+}
